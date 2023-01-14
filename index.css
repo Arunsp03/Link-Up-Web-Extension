@@ -1,0 +1,45 @@
+body{
+    min-width: 400px;
+}
+.main{
+display: flex;
+margin:20px;
+flex-direction: column;
+}
+ #inputelem{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 500;
+    border: 1px solid black;
+
+}
+#inputbtn,#delbtn,#savetab{
+    margin: 10px 0px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    background-color:orange;
+    color: black;
+
+    font-size: large;
+    font-weight: 700;
+    border: none;
+
+}
+#list{
+    padding: 0px;
+    list-style: none;
+    
+}
+li a{
+color: black;
+font-size: 15px;
+text-decoration: none;
+}
+#inputbtn:hover,#delbtn:hover,#savetab:hover{
+    background-color: green;
+    color: white;
+}
